@@ -1,6 +1,6 @@
-pipeline {
+//pipeline {
     // ? Select a Jenkins slave with Docker capabilities
-    agent any
+    //agent any
 	environment {
         PROJECT_NAME = "test1" //git repo name
         BRANCH_NAME = "master" //git branch name
