@@ -4,15 +4,15 @@ x-logging:
     max-size: '20m'
     max-file: '2'
 services:
-  test1:
+  sw-vessels:
     #image: reg-harbor.agiletechnologies.in/test1/test1:latest
     image: weatherservicedev.azurecr.io/weatherservicedev:latest
-    hostname: weatherservicedev
-    container_name: weatherservicedev
+    hostname: sw-vessels
+    container_name: sw-vessels
     networks:
         - default
     ports:
         - 7171:80
 networks:
   default:
-    name: weatherservicedev
+    name: sw-vessels
