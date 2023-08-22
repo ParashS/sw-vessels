@@ -6,7 +6,7 @@ x-logging:
 services:
   test1:
     #image: reg-harbor.agiletechnologies.in/test1/test1:latest
-    image: weatherservicedev:latest
+    image: weatherservicedev.azurecr.io/weatherservicedev:latest
     hostname: weatherservicedev
     container_name: weatherservicedev
     networks:
